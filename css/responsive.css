@@ -1,8 +1,8 @@
-@media(min-width:320px) and (max-width:767px)
+@media (min-width:320px) and (max-width:767px)
 {
 	.container
 	{
-		width:100%;
+		width:90%;
 		margin:0 auto;
 	}
 	.row
@@ -19,14 +19,10 @@
 	{
 		display:none;
 	}
-	.flex_start
-	{
-		justify-content:flex-start;
-	}
 	.flex_end
 	{
 		display:flex;
-		justify-content:space-around;
+		justify-content:space-between;
 	}
 	.flex_end .navicon
 	{
@@ -53,20 +49,20 @@
 	/* About Section endss */
 	
 	/* counter Section starts */
-	.count-num
+	.margin_align
+	{
+		margin-left:5px;
+		margin-top:10px;
+	}
+	.res-icon-pos
 	{
 		position:relative;
-		margin:20px 0;
 	}
-	.count-num i
+	.res-icon-pos i
 	{
 		position:absolute;
-		top:-26px;
-		left:340px;
-	}
-	.count-icon-cont a h4
-	{
-		display:none;
+		top:-20%;
+		left:45%;
 	}
 	.order-2
 	{
@@ -76,12 +72,129 @@
 	{
 		order:1;
 	}
+	.count-icon-cont a i
+	{
+		padding:0 5px;
+	}
 	.count-left-cont
 	{
 		margin-top:20px;
+		padding-left:10px;
 	}
 	/* counter Section ends */
 	
+
+	/* Service Section starts */
+	.serv-center h2
+	{
+		position:relative;
+	}
+	.serv-center h2::after
+	{
+		content:"";
+		border-bottom:3px solid #e03a3c;
+		width:50px;
+		position:absolute;
+		bottom:0;
+		left:43%;
+	}
+	/* Service Section starts */
+	
+	/* Portfolio Section starts */
+	.port-center h2
+	{
+		position:relative;
+	}
+	.port-center h2::after
+	{
+		content:"";
+		border-bottom:3px solid #e03a3c;
+		width:50px;
+		position:absolute;
+		bottom:0;
+		left:43%;
+	}
+	/* Portfolio Section starts */
+	
+	/* Test Section starts */
+	.test-center h2
+	{
+		position:relative;
+	}
+	.test-center h2::after
+	{
+		content:"";
+		border-bottom:3px solid #e03a3c;
+		width:50px;
+		position:absolute;
+		bottom:0;
+		left:43%;
+	}
+	/* Test Section starts */
+	
+	/* Price Section starts */
+	.price-center h2
+	{
+		position:relative;
+	}
+	.price-center h2::after
+	{
+		content:"";
+		border-bottom:3px solid #e03a3c;
+		width:50px;
+		position:absolute;
+		bottom:0;
+		left:43%;
+	}
+	/* Price Section starts */
+	
+	/* Question Section starts */
+	.ques-center h2
+	{
+		position:relative;
+	}
+	.ques-center h2::after
+	{
+		content:"";
+		border-bottom:3px solid #e03a3c;
+		width:50px;
+		position:absolute;
+		bottom:0;
+		left:43%;
+	}
+	/* Question Section starts */
+	
+	/* Team Section starts */
+	.team-center h2
+	{
+		position:relative;
+	}
+	.team-center h2::after
+	{
+		content:"";
+		border-bottom:3px solid #e03a3c;
+		width:50px;
+		position:absolute;
+		bottom:0;
+		left:43%;
+	}
+	/* Team Section starts */
+	
+	/* Contact Section starts */
+	.contact-center h2
+	{
+		position:relative;
+	}
+	.contact-center h2::after
+	{
+		content:"";
+		border-bottom:3px solid #e03a3c;
+		width:50px;
+		position:absolute;
+		bottom:0;
+		left:43%;
+	}
+	/* Contact Section ends */
 	.col_sm_1
 	{
 		width:8.33%;
@@ -144,11 +257,11 @@
 	}
 }
 
-@media(min-width:768px) and (max-width:999px)
+@media (min-width:768px) and (max-width:999px)
 {
 	.container
 	{
-		width:100%;
+		width:90%;
 		margin:0 auto;
 	}
 	.row
@@ -199,16 +312,15 @@
 	/* About Section endss */
 	
 	/* counter Section starts */
-	.count-num
+	.res-icon-pos
 	{
 		position:relative;
-		margin:20px 0;
 	}
-	.count-num i
+	.res-icon-pos i
 	{
 		position:absolute;
-		top:-26px;
-		left:190px;
+		top:-20%;
+		left:45%;
 	}
 	.count-icon-cont a h4
 	{
@@ -227,6 +339,118 @@
 		margin-top:20px;
 	}
 	/* counter Section ends */
+	
+	/* Service Section starts */
+	.serv-center h2
+	{
+		position:relative;
+	}
+	.serv-center h2::after
+	{
+		content:"";
+		border-bottom:3px solid #e03a3c;
+		width:50px;
+		position:absolute;
+		bottom:0;
+		left:43%;
+	}
+	/* Service Section starts */
+	
+	/* Portfolio Section starts */
+	.port-center h2
+	{
+		position:relative;
+	}
+	.port-center h2::after
+	{
+		content:"";
+		border-bottom:3px solid #e03a3c;
+		width:50px;
+		position:absolute;
+		bottom:0;
+		left:43%;
+	}
+	/* Portfolio Section starts */
+	
+	/* Test Section starts */
+	.test-center h2
+	{
+		position:relative;
+	}
+	.test-center h2::after
+	{
+		content:"";
+		border-bottom:3px solid #e03a3c;
+		width:50px;
+		position:absolute;
+		bottom:0;
+		left:43%;
+	}
+	/* Test Section starts */
+	
+	/* Price Section starts */
+	.price-center h2
+	{
+		position:relative;
+	}
+	.price-center h2::after
+	{
+		content:"";
+		border-bottom:3px solid #e03a3c;
+		width:50px;
+		position:absolute;
+		bottom:0;
+		left:43%;
+	}
+	/* Price Section starts */
+	
+	/* Question Section starts */
+	.ques-center h2
+	{
+		position:relative;
+	}
+	.ques-center h2::after
+	{
+		content:"";
+		border-bottom:3px solid #e03a3c;
+		width:50px;
+		position:absolute;
+		bottom:0;
+		left:43%;
+	}
+	/* Question Section starts */
+	
+	/* Team Section starts */
+	.team-center h2
+	{
+		position:relative;
+	}
+	.team-center h2::after
+	{
+		content:"";
+		border-bottom:3px solid #e03a3c;
+		width:50px;
+		position:absolute;
+		bottom:0;
+		left:43%;
+	}
+	/* Team Section starts */
+	
+	/* Contact Section starts */
+	.contact-center h2
+	{
+		position:relative;
+	}
+	.contact-center h2::after
+	{
+		content:"";
+		border-bottom:3px solid #e03a3c;
+		width:50px;
+		position:absolute;
+		bottom:0;
+		left:43%;
+	}
+	/* Contact Section ends */
 	
 	.col_md_1
 	{
